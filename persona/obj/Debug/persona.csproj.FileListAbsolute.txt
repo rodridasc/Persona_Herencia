@@ -1,0 +1,10 @@
+C:\Users\LICENCIATURAS\Downloads\persona\bin\Debug\persona.exe.config
+C:\Users\LICENCIATURAS\Downloads\persona\bin\Debug\persona.exe
+C:\Users\LICENCIATURAS\Downloads\persona\bin\Debug\persona.pdb
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.csproj.AssemblyReference.cache
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.Form1.resources
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.Properties.Resources.resources
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.csproj.GenerateResource.cache
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.csproj.CoreCompileInputs.cache
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.exe
+C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.pdb
