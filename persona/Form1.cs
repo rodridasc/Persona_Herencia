@@ -19,11 +19,25 @@ namespace persona
 
         private void guardar_Click(object sender, EventArgs e)
         {
-            // esto se hace de tarea todos los valores
-            // deben de almacenarse en su
-            // caja de memoria correspondiente
-            // usando la clase hija que corresponda
-            MessageBox.Show("Datos guardados");
+            if (radioButton2.Checked)
+            {
+                MessageBox.Show("DATOS GUARDOS" + "\nNombre: " + textBox1.Text + "\nFecha de Nac: " + textBox2.Text
+                + "\nEdad: " + textBox3.Text + "\nMatricula: " + textBox4.Text + "\nCarrera: " + textBox5.Text);
+            }
+            else
+            {
+                if (radioButton1.Checked || radioButton3.Checked)
+                {
+                    MessageBox.Show("DATOS GUARDOS" + "\nNombre: " + textBox1.Text + "\nFecha de Nac: " + textBox2.Text
+              + "\nEdad: " + textBox3.Text + "\nDNI: " + textBox4.Text + "\nPuesto: " + textBox5.Text + "\nSueldo: " + textBox6.Text);
+                }
+                else
+                {
+                    MessageBox.Show("DATOS GUARDOS" + "\nNombre: " + textBox1.Text + "\nFecha de Nac: " + textBox2.Text
+               + "\nEdad: " + textBox3.Text);
+                }
+
+            }
         }
 
         private void limpiar_Click(object sender, EventArgs e)
@@ -67,7 +81,92 @@ namespace persona
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
+            string rutaImagen = "C:\\Users\\rodri\\source\\repos\\rodridasc\\Persona_Herencia\\persona\\Imagenes\\alumno.png";
+            pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
+            label6.Visible = false;
+            textBox6.Visible = false;
+        }
 
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+            string rutaImagen = "C:\\Users\\rodri\\source\\repos\\rodridasc\\Persona_Herencia\\persona\\Imagenes\\emple.png";
+            pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
+            label4.Visible = true;
+            textBox4.Visible = true;
+            label5.Visible = true;
+            textBox5.Visible = true;
+            label6.Visible = true;
+            textBox6.Visible = true;
+        }
+
+        private void radioButton4_CheckedChanged(object sender, EventArgs e)
+        {
+
+            string rutaImagen = "C:\\Users\\rodri\\source\\repos\\rodridasc\\Persona_Herencia\\persona\\Imagenes\\emple.png";
+            pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
+            label4.Visible = false;
+            textBox4.Visible = false;
+            label5.Visible = false;
+            textBox5.Visible = false;
+            label6.Visible = false;
+            textBox6.Visible = false;
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            string rutaImagen = "C:\\Users\\rodri\\source\\repos\\rodridasc\\Persona_Herencia\\persona\\Imagenes\\docente.png";
+            pictureBox1.BackgroundImage = Image.FromFile(rutaImagen);
+            label4.Visible = true;
+            textBox4.Visible = true;
+            label5.Visible = true;
+            textBox5.Visible = true;
+            label6.Visible = true;
+            textBox6.Visible = true;
+        }
+
+        private void validar_Click(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked)
+            {
+
+                string nom = textBox1.Text;
+                string fech = textBox2.Text;
+                int edad = Convert.ToInt32(textBox3.Text);
+                int mat = Convert.ToInt32(textBox4.Text);
+                string carrera = textBox5.Text;
+                Alumno alumno = new Alumno(nom, edad, fech, carrera, mat);
+            }
+            else
+            {
+                if (radioButton1.Checked)
+                {
+
+                    string nom = textBox1.Text;
+                    string fech = textBox2.Text;
+                    int edad = Convert.ToInt32(textBox3.Text);
+                    int mat = Convert.ToInt32(textBox4.Text);
+                    string puesto = textBox5.Text;
+                    float sueldo = Convert.ToSingle(textBox6.Text);
+                    Empleado empleado = new Empleado(nom, edad, fech, puesto, sueldo);
+                }
+                else if (radioButton3.Checked)
+                {
+                    string nom = textBox1.Text;
+                    string fech = textBox2.Text;
+                    int edad = Convert.ToInt32(textBox3.Text);
+                    int mat = Convert.ToInt32(textBox4.Text);
+                    string puesto = textBox5.Text;
+                    float sueldo = Convert.ToSingle(textBox6.Text);
+                    Docente docente = new Docente(nom, edad, fech, puesto, sueldo);
+                }
+                else
+                {
+                    string nom = textBox1.Text;
+                    string fech = textBox2.Text;
+                    int edad = Convert.ToInt32(textBox3.Text);
+                }
+            }
         }
     }
 }

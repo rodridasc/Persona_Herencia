@@ -8,3 +8,13 @@ C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.csproj.GenerateResour
 C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.csproj.CoreCompileInputs.cache
 C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.exe
 C:\Users\LICENCIATURAS\Downloads\persona\obj\Debug\persona.pdb
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\bin\Debug\persona.exe.config
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\bin\Debug\persona.exe
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\bin\Debug\persona.pdb
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.csproj.AssemblyReference.cache
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.Form1.resources
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.Properties.Resources.resources
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.csproj.GenerateResource.cache
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.exe
+C:\Users\rodri\Source\Repos\rodridasc\Persona_Herencia\persona\obj\Debug\persona.pdb
